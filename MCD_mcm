@@ -21,8 +21,9 @@ def mcd_mcm(num1, num2, booleano):
                     
     def mcm(num1, num2):        
         return abs(num1 * num2)//mcd(num1, num2)
-            
+
+# definimos la lógica
     if booleano:
-        return f"El MCD de {num1} y de {num2} es {mcd(num1, num2)}"
+        return f"El MCD de {num1} y de {num2} es {mcd(num1, num2)}" # SI el boleano = True -> llamamos la funcion mcd
     else:
-        return f"El mcm de {num1} y de {num2} es {mcm(num1, num2)}"
+        return f"El mcm de {num1} y de {num2} es {mcm(num1, num2)}" #Si el boleano = False -> llamamos la funcion mcm
